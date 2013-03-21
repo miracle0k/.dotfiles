@@ -32,3 +32,10 @@ git clone git://github.com/michaeljsmalley/dotfiles ~/dotfiles
 cd ~/dotfiles
 ./makesymlinks.sh
 ```
+
+주의사항
+-----------
+ubuntu 사용시 아래 명령어로 기본쉘을 변경한 후 재시작해줘야 함.
+``` bash
+chsh -s /bin/zsh
+```
